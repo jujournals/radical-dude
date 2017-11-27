@@ -209,7 +209,7 @@ function doSpin()
 				if ((relativeAngle >= prizes[x]['startAngle']) && (relativeAngle <= prizes[x]['endAngle']))
 				{
 					alert("Congratulations. Your discount code is: " + prizes[x]['name'] + "\nYou will now be taken to the Order page.");
-					window.location.href = "../pg/order.html";
+					window.location.href = "../order.html";
 					break;
 				}
 			}
