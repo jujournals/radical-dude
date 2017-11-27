@@ -199,7 +199,7 @@ function validateForm() {
 																					// After form submission, redirect user to home page.
 			return 	alert( "Please select your preferred notification method." );
 			alert( "Radical Dude! Your order is now being processed. You will be notified about your order shipment via notification method " + (i+1) + " shortly." );	
-			window.location.href = "../pg/index.html";																							
+			window.location.href = "../index.html";																							
 																																				
 																																				
 		}																																		
