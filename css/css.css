@@ -1,0 +1,232 @@
+.page {
+	height: auto;
+	width: auto;
+}
+a img {
+	border: none;
+}
+body {
+	background-image:url(../img/IMG_5732.JPG);
+	background-repeat:no-repeat;
+	background-size: auto;
+	background-position: top center;
+	background-attachment: fixed;
+}
+#content {
+	width: 800px;
+	left: 48.5%;
+	margin-left: -400px;
+	position: relative;
+	-webkit-box-shadow: -8px 0 6px -6px #f3baee, 8px 0 6px -6px #f3baee;
+	   -moz-box-shadow: -8px 0 6px -6px #f3baee, 8px 0 6px -6px #f3baee;
+	        box-shadow: -8px 0 6px -6px #f3baee, 8px 0 6px -6px #f3baee;
+}
+#banner {
+	position: relative;
+	margin-left:auto;
+	margin-right: auto;
+	height: 146px;
+	width: 800px;
+}
+#navigation {
+	height: 50px;
+	padding: 0px;
+}
+#button {
+	height: 50px;
+	width: 200px;
+	float: left;
+}
+#area {
+	background-color: #e1f0f2;
+	width: 800px;
+	height: auto;
+	position: relative;
+	margin-left:auto;
+	margin-right: auto;
+	padding-bottom:35px;
+}
+#title {
+	width: 700px;
+	height: auto;
+	position: relative;
+	margin-left:auto;
+	margin-right: auto;
+	z-index:1;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	font-weight:bold;
+	text-align:center;
+	color:#0b0c28;
+	padding-top:30px;
+	padding-bottom:20px;
+}
+#box {
+	background-color: #0b0c28;
+	width: 700px;
+	height: auto;
+	position: relative;
+	margin-left:auto;
+	margin-right: auto;
+	z-index:1;
+}
+#heading {
+	width: 650px;
+	height: auto;
+	position: relative;
+	margin-left:auto;
+	margin-right: auto;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	text-align: left;
+	color:#FFF;
+	padding-top:20px;
+	padding-bottom:10px;
+	z-index:2;
+}
+#works {
+	background-image: url(../img/works.png);
+	width: 650px;
+	height: 290px;
+	position: relative;
+	margin-left:auto;
+	margin-right: auto;
+	z-index:2;
+}
+#hometable {
+	position: relative;
+	width: 650px;
+	height: auto;
+	margin-left:auto;
+	margin-right: auto;
+	padding-top:20px;
+	padding-bottom:20px;
+	z-index:2;
+}
+#instruct {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align: left;
+	color:#FFF;
+}
+#step {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-align: left;
+	color:#FFF;
+}
+#copyright {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align: center;
+	color:#0b0c28;
+	background-color:#9ff9ff;
+	padding-bottom:15px;
+	padding-top:15px;
+}
+#pic {
+	width: 650px;
+	height: 290px;
+	padding-top:30px;
+	position: relative;
+	margin-left:auto;
+	margin-right: auto;
+	z-index:2;
+}
+#summary {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	text-align: center;
+	color:#FFF;
+	padding-bottom: 15px;
+}
+#keytable {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	text-align: left;
+	color:#FFF;
+}
+a.para:link {
+	text-decoration: none;
+	color: #00F;
+}
+a.para:visited {
+	text-decoration: none;
+	color: #00F;
+}
+a.para:active {
+	text-decoration: none;
+	color: #00F;
+}
+
+/* Quiz CSS */
+label {display:block;}
+.quiz {
+	width:650px;
+	padding:20px;
+}
+.quiz form {
+}
+.quiz p {
+	padding:10px;
+}
+.quiz p b {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	text-align:center;
+	color:#FFF;
+	z-index:2;
+}
+.question {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:18px;
+	text-align: left;
+	color:#FFF;
+	padding-bottom:12px;
+}
+.answers {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:15px;
+	text-align: left;
+	color:#FFF;
+}
+/* Sets the background image for the wheel */
+td.the_wheel
+{
+	background-image: url(../img/spin/wheel_back.png);
+	background-position: center;
+	background-repeat: none;
+}
+/* Styles for the power selection controls */
+table.power
+{
+	background-color: #cccccc;
+	cursor: pointer;
+}
+
+table.power th
+{
+	background-color: white;
+	cursor: default;
+}
+
+td.pw1
+{
+	background-color: #6fe8f0;
+}
+
+td.pw2
+{
+	background-color: #86ef6f;
+}
+
+td.pw3
+{
+	background-color: #ef6f6f;
+}
+
+/* Style applied to the spin button once a power has been selected */
+.clickable
+{
+	cursor: pointer;
+}

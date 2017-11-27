@@ -1,0 +1,71 @@
+<html>
+<head>
+<title>Radical Dude Discount</title>
+<link href="../css/css.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="../js/js.js"></script>
+<script type="text/javascript" src="../js/wheel.js"></script>
+</head>
+
+<body class="page" onLoad="MM_preloadImages('../img/buttons/home1.png','../img/buttons/quiz1.png','../img/buttons/discount1.png','../img/buttons/order1.png')">
+<div id="banner"><img src="../img/banner1.png" width="800" height="146" />
+</div>
+<div id="content">
+
+
+<div id="navigation">
+<div id="button"><a href="index.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('home','','../img/buttons/home1.png',1)"><img src="../img/buttons/home.png" width="200" height="50" id="home"></a></div>
+<div id="button"><a href="quiz.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('quiz','','../img/buttons/quiz1.png',1)"><img src="../img/buttons/quiz.png" width="200" height="50" id="quiz"></a></div>
+<div id="button"><img src="../img/buttons/discount1.png" width="200" height="50" id="discount"></div>
+<div id="button"><a href="order.html" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('order','','../img/buttons/order1.png',1)"><img src="../img/buttons/order.png" width="200" height="50" id="order"></a></div>
+</div>
+
+<div id="area">
+<div id="title">Choose a power setting then press the Spin button. The wheel will spin for a few moments then slow to a stop. You'll receive a unique discount code depending on your spin results.
+</div>
+
+<div id="box">
+<div id="heading">RADICAL DUDE DISCOUNT WHEEL
+</div>
+<table width="590" border="0" cellspacing="0" cellpadding="0" style="padding-left:30px">
+  <tr>
+    <td><div id="step">
+							<table class="power" cellpadding="10" cellspacing="0">
+								<tr>
+									<th align="center">Power</th>
+								</tr>
+								<tr>
+									<td width="78" align="center" id="pw3" onClick="powerSelected(3);">High</td>
+								</tr>
+								<tr>
+									<td align="center" id="pw2" onClick="powerSelected(2);">Med</td>
+								</tr>
+								<tr>
+									<td align="center" id="pw1" onClick="powerSelected(1);">Low</td>
+								</tr>
+                                <tr>
+									<td><img id="spin_button" src="../img/spin/spin_off.png" alt="Spin" onClick="startSpin();" /></td>
+								</tr>
+							</table>
+</div></td>
+    <td width="352" height="448" class="the_wheel" align="center" valign="center">
+						<canvas class="the_canvas" id="myDrawingCanvas" width="350" height="350">
+							<p class="noCanvasMsg" align="center">Sorry, your browser doesn't support canvas.<br />Please try another.</p>
+						</canvas>
+					</td
+  ></tr>
+</table>
+</div>
+</div>
+
+<div id="copyright">&copy; 2015 Radical Dude Retrofuturistic Store. All rights reserved.
+</div>
+
+</div>
+<script>
+			
+// Call function to draw the wheel face at it's initial position.
+begin();
+			
+</script>
+</body>
+</html>
